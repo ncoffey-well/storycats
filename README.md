@@ -1,18 +1,8 @@
-# Chrome-Extension-Base-Template
+# StoryCats
 This is a basic Chrome Extension that replaces Story Points with cats of various levels of chonk.
 
 ## Author
 Noah Coffey
-
-## Requirements
-### Knowledge
-- HTML
-- CSS
-- Javascript
-- Chrome API
-### Tools
-- Google Chrome Browser
-- IDE or Text Editor of Your Choice
 
 ## Setup Instructions
 ### For Developers
