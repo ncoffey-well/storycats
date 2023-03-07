@@ -3,9 +3,6 @@ This is a basic Chrome Extension that replaces Story Points with cats of various
 
 ![Preview](example.png)
 
-## Author
-Noah Coffey
-
 ## Setup Instructions
 ### For Developers
 1. Make a clone of this project, unzipped.
