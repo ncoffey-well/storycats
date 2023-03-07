@@ -1,6 +1,8 @@
 # StoryCats
 This is a basic Chrome Extension that replaces Story Points with cats of various levels of chonk.
 
+![Preview](example.png)
+
 ## Author
 Noah Coffey
 
