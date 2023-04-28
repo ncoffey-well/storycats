@@ -4,26 +4,25 @@
   "version": "0.1.0",
   "manifest_version": 3,
   "icons": {
-      "16": "chonk.png",
-      "32": "chonk.png",
-      "48": "chonk.png",
-      "128": "chonk.png"
+    "16": "chonk.png",
+    "32": "chonk.png",
+    "48": "chonk.png",
+    "128": "chonk.png"
   },
   "background": {
-      "service_worker": "background.js"
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
-        "matches": [
-            "https://wellapp.atlassian.net/*"
-        ],
-        "js": ["/content.js"],
-        "css" : ["style.css"]
-
+      "matches": ["https://wellapp.atlassian.net/*"],
+      "js": ["/content.js"],
+      "css": ["style.css"]
+    },
+    {
+      "matches": ["https://app.storypoint.poker/*"],
+      "js": ["/content.js"],
+      "css": ["style.css"]
     }
-],
-  "permissions": [
-      "activeTab",
-      "scripting"
-  ]
+  ],
+  "permissions": ["activeTab", "scripting"]
 }
